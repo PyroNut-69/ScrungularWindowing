@@ -6,7 +6,7 @@ you need `Visual Studio` (preferably `2022`, other ones might work idk)
 you need the `Game Development` and `Desktop Development` with `C++` modules insatalled
 after you've done that refer to the `documentation.txt` (very usefull)
 
-### **(CURRENTLY HAS NO FUNCTIONALITY WITH GRAPHICS API'S)**
+### **(CURRENTLY HAS NO FUNCTIONALITY FOR USE WITH GRAPHICS API'S)**
 
 i'm working on adding `DirectX` support (`9` and `11`?? (that is funny (i think)))
 
