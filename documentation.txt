@@ -1,0 +1,9 @@
+1. create c++ windows desktop application
+2. delete all the stuff it gives you (its bad)
+3. go to visual studio solution properties
+4. go to c/c++
+5. go to additional include directories
+6. add file path that leads to ScrungularWindowing\
+7. drag and drop Scungular.cpp into solution explorer window
+8. you might be ready to start codering (if you have errors, i dont care)
+9. idk, go read example code
