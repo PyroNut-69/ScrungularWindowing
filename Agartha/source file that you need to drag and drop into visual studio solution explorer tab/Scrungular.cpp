@@ -11,9 +11,12 @@
 
     - DestinyDonut
 */
+// when giving distributing library change the include to the one below instead of "Scrungular.h"
+#include <Agartha/Scrungular.h> 
 
-
-#include <Agartha/Scrungular.h>
+// this is used for dev reasons
+//#include "Scrungular.h"
+//#include <d3d9.h>
 
 // this is the main message handler for the program
 LRESULT CALLBACK WindowProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
@@ -89,7 +92,7 @@ void eventHandlerMaybeIdk(MSG msg)
         // Translate the message and dispatch it to WindowProc()
         TranslateMessage(&msg);
         DispatchMessage(&msg);
-
+        // exit program if user presses x
         if (msg.message == WM_QUIT)
             exit(-1);
     } 

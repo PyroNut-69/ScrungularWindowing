@@ -1,11 +1,9 @@
 #include <iostream>
-#include <Agartha/Scrungular.h> 
+// include <Agartha/Scrungular.h> 
+#include "Scrungular.h"
 
 // the entry point for any Windows program
-int WINAPI WinMain(HINSTANCE hInstance, // this is the instance of the window
-    HINSTANCE hPrevInstance, // this is the previous instance of the window (its useless but legacy code)
-    LPSTR lpCmdLine, // i dont know
-    int nCmdShow) // int for showing command line (i dont know how to make it work
+int smain()// int for showing command line (i dont know how to make it work
 {
     // the handle for the window, filled by a function in scrungular
     HWND hWnd{};
