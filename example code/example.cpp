@@ -1,9 +1,11 @@
 #include <iostream>
-// include <Agartha/Scrungular.h> 
-#include "Scrungular.h"
+// users include <Agartha/Scrungular.h> 
+#include <Agartha/Scrungular.h> 
+// dev reasons for "Scrungular.h"
+//#include "Scrungular.h"
 
 // the entry point for any Windows program
-int smain()// int for showing command line (i dont know how to make it work
+int smain()
 {
     // the handle for the window, filled by a function in scrungular
     HWND hWnd{};
